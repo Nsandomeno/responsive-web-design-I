@@ -1,6 +1,6 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -65,8 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 /* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+v2.0 | 20110126
+License: none (public domain)
 */
 
 html, body, div, span, applet, object, iframe,
@@ -135,7 +135,8 @@ body{
 	margin-left: 5%;
 }
 .first{
-	display: flex;
+    display: flex;
+    flex-direction: column-reverse;
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
@@ -230,139 +231,3 @@ address{
 footer{
 	text-align: center;
 }
-
-@media(max-width: 800px){
-.first {
-display: flex;
-flex-direction: column-reverse;
-justify-content: center;
-align-content: space-between;
-} 
-.navbar{
-    width: 100%;
-    margin-top: 3%;
-}
-.code-pic{
-    display: none;
-}
-
-h1{
-width: 100%;
-text-align: center;
-margin-top: 2.5%;
-}
-}
-
-@media(max-width:500px){
-.first {
-display: flex;
-flex-direction: column-reverse;
-justify-content: center;
-align-content: space-between;
-}
-
-.navbar{
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-}
-
-.navitem{
-    margin-top: 2%;
-    margin-bottom: 2%;
-    width: 100%;
-    text-align: center;
-    border-bottom: 1px solid black;
-}
-h1{
-font-size: 50px;
-}
-button{
-    height: 30px;
-}
-.top-middle{
-    flex-direction: column;
-    justify-content: space-around;
-}
-.top-middle div{
-    margin-top: 1%;
-    margin-bottom: 3%;
-}
-
-.bottom-middle{
-    flex-direction: column;
-    justify-content: space-around;
-}
-.bottom-middle div{
-    margin-top: 1%;
-    margin-bottom: 3%;
-}
-}
-
-
-/* SERVICE PAGE STYLE
-.image-section{
-	width: 100%;
-	padding-top: 50px;
-	text-align: center;
-}
-
-
-
-
-
-.lead{
-	padding-top: 20px;
-	border-bottom: 6px solid black;
-	margin-bottom: 5%;
-}
-.boxes {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-content: space-between;
-	border-bottom: solid 6px black;
-}
-
-.child-box{
-	width: 35%;
-	height: 50%;
-	border: solid black 2px;
-	background-color:lightgrey;
-	margin-top: 2.5%;
-	margin-bottom: 2.5%;
-}
-
-#box-header{
-	padding-top: 10px;
-	padding-left: 10px;
-}
-
-#box-button{
-	margin-left: 10px;
-	margin-bottom: 10px;
-	margin-top: 7px;
-}
-
-#box-p{
-	text-align: left;
-}
-
-.end{
-	display: flex;
-	justify-content: space-around;
-}
-
-ul{
-list-style-type: circle;
-margin-left: 20px;
-line-height: 1.5;
-}
-.end-div{
-	margin-top: 20px;
-	width: 30%;
-}
-#service-footer{
-	margin-top: 30px;
-} */
-
